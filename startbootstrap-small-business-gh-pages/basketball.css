@@ -1,0 +1,41 @@
+body{
+    background-color: lightgray;
+}
+.menu{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(242, 242, 197);
+}
+a:hover{
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    text-decoration: none;
+}
+
+.allofit{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.Item{
+    align-items: center;
+    padding-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.Footer{
+    grid-column: 1/span 2;
+    align-items: center;
+    padding-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.centered{
+    display: block;
+    margin: 0 auto;
+}
